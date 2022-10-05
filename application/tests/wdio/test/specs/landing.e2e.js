@@ -4,6 +4,7 @@ describe("Chess Project Initial Load", () => {
     it("should load landing page", async () => {
         await LandingPage.open();
         const expected = "Chess App";
-        await expect(LandingPage.header).toMatch(expected)
+        const actual = await LandingPage.header.getText();
+        await expect(actual).toMatch(expected)
     });
 });
