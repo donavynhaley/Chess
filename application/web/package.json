@@ -1,0 +1,11 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "Chess program created for youtube channel using best practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Donavyn Haley",
+  "license": "ISC"
+}
